@@ -7,11 +7,34 @@ body {
 	background: -moz-linear-gradient(bottom left, #71E7E7, #F4E18D);
 	background: -o-linear-gradient(bottom left, #71E7E7, #F4E18D);
 	background: linear-gradient(to top right, #71E7E7, #F4E18D);
-	// overflow: hidden;
+	margin: 0;
 }
 div {
-	position: absolute;
+	/* position: absolute;
 	left: 0;
 	right: 0;
-	margin: auto;
+	margin: auto; */
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	color: #E46D64;
 }
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+}
+/*  Make the SVG canvas fill its container - both initially and after resizing */
+svg { height: 100%; width: 100%; }
