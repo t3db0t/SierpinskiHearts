@@ -14,10 +14,7 @@ div {
 	left: 0;
 	right: 0;
 	margin: auto; */
-	font-family: Arial;
-	font-size: 40px;
-	font-weight: bold;
-	color: #E46D64;
+	
 }
 
 .flex-container {
@@ -35,6 +32,17 @@ div {
 }
 .row {
     width: auto;
+}
+a, .text {
+	font-family: Arial;
+	color: #E46D64;
+}
+.big {
+	font-size: 40px;
+	font-weight: bold;
+}
+.small {
+	font-size: 14px;
 }
 /*  Make the SVG canvas fill its container - both initially and after resizing */
 svg { height: 100%; width: 100%; }
