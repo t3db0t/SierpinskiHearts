@@ -1,6 +1,4 @@
-require([ "./raphael" ], function (Raphael) {
-//     var container = document.getElementById("container");
-//     var paper = Raphael(container, 600, 600);
+function makeHearts(){
 	var paper = Raphael("heart", 800, 800);
 
 	var heartString = "M24.132,7.971c-2.203-2.205-5.916-2.098-8.25,0.235L15.5,8.588l-0.382-0.382c-2.334-2.333-6.047-2.44-8.25-0.235c-2.204,2.203-2.098,5.916,0.235,8.249l8.396,8.396l8.396-8.396C26.229,13.887,26.336,10.174,24.132,7.971z";
@@ -53,4 +51,4 @@ require([ "./raphael" ], function (Raphael) {
 	}
 
 	triangleSier(0, 700, 400, 0, 800, 700, 7);
-});
+}
