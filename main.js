@@ -1,4 +1,4 @@
-require([ "./raphael/raphael" ], function (Raphael) {
+require([ "./raphael" ], function (Raphael) {
 //     var container = document.getElementById("container");
 //     var paper = Raphael(container, 600, 600);
 	var paper = Raphael("heart", 800, 800);
