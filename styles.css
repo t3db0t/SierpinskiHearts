@@ -1,0 +1,17 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background: -webkit-linear-gradient(bottom left, #71E7E7, #F4E18D);
+	background: -moz-linear-gradient(bottom left, #71E7E7, #F4E18D);
+	background: -o-linear-gradient(bottom left, #71E7E7, #F4E18D);
+	background: linear-gradient(to top right, #71E7E7, #F4E18D);
+	// overflow: hidden;
+}
+div {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
